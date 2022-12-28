@@ -1,0 +1,279 @@
+.modal-dialog {
+  max-width: 600px;
+  overflow: hidden;
+}
+.c-modal-body {
+  text-align: center;
+  padding: 40px;
+  position: relative;
+}
+.c-modal-header {
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  color: #191f25;
+}
+.c-modal-content {
+  color: #697671;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  margin: 20px 0px;
+}
+
+.c-modal-input {
+  border: 1px solid #00d58b;
+  border-radius: 100px;
+  height: 40px !important;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  margin-top: 10px;
+}
+
+.c-modal-input-group {
+  margin: 20px 40px;
+  z-index: 1;
+  position: relative;
+}
+
+.c-modal-name {
+  display: flex;
+}
+
+.c-m-r-10 {
+  margin-right: 10px;
+}
+.c-m-t-10 {
+  margin-top: 10px;
+}
+
+.c-modal-close-btn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.c-modal-submit {
+  background: linear-gradient(68.57deg, #12b3a4 16.66%, #04dc8a 83.3%);
+  border-radius: 100px;
+  width: 170px;
+  height: 42px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 18px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+}
+.c-modal-submit i {
+  font-weight: 500;
+  margin-left: 10px;
+}
+.c-modal-submit:hover {
+  background: linear-gradient(
+    to left,
+    rgb(18, 178, 165),
+    rgb(4, 221, 138)
+  ) !important;
+}
+.c-modal-submit:focus,
+.c-modal-submit:active:focus {
+  border: none;
+  box-shadow: none;
+}
+.invalid-feedback {
+  display: block;
+  text-align: left;
+  padding: 0px 5px;
+}
+.c-modal-texture {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+.c-modal-stepper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.c-stepper-content {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.c-stepper-item {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  position: relative;
+}
+.c-stepper-item.active {
+  padding: 0px;
+}
+.c-stepper-btn {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #d7e3e7;
+  color: #697671;
+  font-size: 15px;
+}
+.c-stepper-item.active .c-stepper-btn {
+  background-color: #00d58b;
+  color: white;
+  font-size: 15px;
+}
+.c-stepper-pin {
+  position: absolute;
+  display: flex;
+}
+.c-stepper-pin.left {
+  left: -125%;
+  top: 45%;
+}
+.c-stepper-pin.right {
+  right: -135%;
+  top: 45%;
+}
+.c-stepper-pin.none {
+  display: none;
+}
+.c-stepper-pin i {
+  margin: 0px 5px;
+  color: #d7e3e7;
+  font-size: 4px;
+}
+.c-modal-address-header {
+  font-size: 15px;
+  line-height: 18px;
+  color: #191f25;
+  font-weight: 600;
+  width: 50px;
+  display: -webkit-inline-box;
+  padding: 3px 0px;
+  margin-right: 20px;
+  border-right: 1px solid #00d58b;
+}
+.c-modal-address-content {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #191f25;
+}
+.c-modal-backbtn {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #677777;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+.c-modal-backbtn:hover {
+  text-decoration: underline;
+}
+.c-modal-backbtnothers {
+  width: 41px;
+}
+.c-modal-footer {
+  padding: 0px 30px;
+}
+.c-modal-highlight-text {
+  color: #00d58b;
+  font-weight: 600;
+  position: relative;
+  z-index: 2;
+}
+.c-modal-highlight-text:hover {
+  color: #00d58b;
+}
+.c-modal-small-text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #677777;
+  margin-top: 20px;
+}
+.c-modal-copyicon {
+  position: absolute;
+  cursor: pointer;
+  padding: 0px 5px;
+}
+.c-modal-copyicon i {
+  color: #00d58b;
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.c-modal-stageprice-root {
+  display: flex;
+  margin: 30px 0px;
+}
+
+.c-modal-stageprice-text {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: #12222f;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.c-modal-stageprice-stick {
+  width: 1px;
+  opacity: 0.3;
+  background: #7599a2;
+  margin: 0px 20px;
+  display: block;
+}
+
+@media screen and (max-width: 500px) {
+  .c-modal-name {
+    display: block;
+  }
+  .c-m-r-10 {
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .c-modal-stageprice-root {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    width: 270px;
+  }
+  .c-modal-stageprice-stick {
+    height: 1px;
+    margin: 10px 0px;
+    width: 100%;
+  }
+}
